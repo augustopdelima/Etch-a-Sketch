@@ -9,8 +9,7 @@
 .root {
     display: flex;
     flex-wrap: wrap;
-    width: 800px;
-    height: 800px;
+    width: 100%;
 }
 
 .title {
@@ -33,5 +32,6 @@
 
 .grid-block {
     background-color: white;
-    border: 0.2px solid black;
+    border: 1px solid black;
+    box-sizing: border-box;
 }
